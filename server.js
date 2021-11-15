@@ -1,3 +1,7 @@
+
+export PORT=8080
+export CORSANYWHERE_WHITELIST=https://social-osa.web.app/,http://social-osa.web.app/
+
 // Listen on a specific host via the HOST environment variable
 var host = process.env.HOST || '0.0.0.0';
 // Listen on a specific port via the PORT environment variable
